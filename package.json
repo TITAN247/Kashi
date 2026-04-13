@@ -1,0 +1,11 @@
+{
+  "name": "kashi-root",
+  "private": true,
+  "scripts": {
+    "build": "cd app && npm install && npm run build",
+    "start": "cd app && npx serve -s dist -l 3000"
+  },
+  "engines": {
+    "node": "20"
+  }
+}
